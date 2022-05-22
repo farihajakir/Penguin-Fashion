@@ -11,9 +11,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <header  class="bg-yellow-100 pb-24">  
+    <header  class="bg-yellow-100 pb-24"> 
+        <!-- navigation sections  -->
+        <nav class="container md:flex justify-around items-center">
+            <div>
+                <img class="h-8" src="images/logo.png" alt="">
+            </div>
+            <div>
+                <ul class="font-medium flex pl-16 ">
+                    <li class="p-10"><a href="#"> Home</a> </li>
+                    <li class="p-10"><a href="#women jacket"> Products</a></li>
+                    <li class="p-10"><a href="#"> About Us</a></li>
+                    <li class="p-10"><a href="#"> Contact Us</a></li>
+                </ul>
+            </div>
+
+        </nav>
+                <!-- Header sections -->
        <section class=" container md:flex justify-center items-center ">
-        <div class="space-y-5">
+        <div class="space-y-5 px-3">
             <h1 class="text-7xl font-bold uppercase">
                 <span class="text-yellow-400 ">be the penguin</span> <br>
                 <span class="text-gray-800">of winter</span>
@@ -27,45 +43,118 @@
        </section>
     </header>
     <main>
-        <section class="container px-4 mx-auto">
-            <h1 class="uppercase text-gray-800 font-bold  text-2xl">women jacket</h1>
-            <section class="grid grid-cols-3 gap-3  ">
+        <section class="container mx-auto">
+                    <!-- Women sections -->
+            <h1 id="women jacket" class="uppercase text-gray-800 font-bold  text-3xl pt-3 pb-3">Women jacket</h1>
+            <section class="md:grid grid-cols-3 gap-7 lg:mr-20 lg:ml-20">
                 <div class="rounded-3xl shadow-lg p-4">
-                   <div class="bg-gray-100 rounded-3xl" >
-                    <img src="images/jacket-1.png" alt="">
-                   </div>
-                    <h3 class="text-gray-600 text-1xl">Yellow Coat Jacket </h3>
+                    <div class="bg-gray-200 rounded-3xl py-6">
+                        <img class="h-64 mx-auto" src="images/jacket-1.png" alt="">
+                    </div>
+                    <h3 class="text-gray-600 font-medium text-3xl">Yellow Coat Jacket </h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, et commodi rem deserunt </p>
                     <div class="flex justify-between items-center">
-                        <h2>$580</h2>
+                        <h2 class="text-3xl text-yellow-400 font-bold">$580</h2>
                         <button class="bg-lime-600 text-white font-medium uppercase px-3 py-2 rounded-lg"> <a href="#"></a> <i class="fa-solid fa-cart-shopping"></i> buy now </a></button>
                     </div>
                 </div>
-                <div class="rounded-3xl shadow-lg ">
-                    <img class="bg-gray-100 rounded-3xl" src="images/jacket-2.png" alt="">
-                    <h3 class="text-gray-600 text-1xl">Yellow Coat Jacket </h3>
+                <div class="rounded-3xl shadow-lg p-4 ">
+                    <div class="bg-gray-200 rounded-3xl py-6">
+                        <img class="h-64 mx-auto" src="images/jacket-2.png" alt="">
+                    </div>
+                    <h3 class="text-gray-600 font-medium text-2xl">Yellow Coat Jacket </h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, et commodi rem deserunt </p>
                     <div class="flex justify-between items-center">
-                        <h2>$580</h2>
+                        <h2 class="text-3xl text-yellow-400 font-bold">$800</h2>
                         <button class="bg-lime-600 text-white font-medium uppercase px-3 py-2 rounded-lg"> <a href="#"></a> <i class="fa-solid fa-cart-shopping"></i> buy now </a></button>
                     </div>
                 </div>
-                <div class="rounded-3xl shadow-lg ">
-                    <img class="bg-gray-100 rounded-3xl" src="images/jacket-3.png" alt="">
-                    <h3 class="text-gray-600 text-1xl">Yellow Coat Jacket </h3>
+                <div class="rounded-3xl shadow-lg p-4">
+                    <div class="bg-gray-200 rounded-3xl py-6">
+                        <img class="h-64 mx-auto" src="images/jacket-3.png" alt="">
+                    </div>
+                    <h3 class="text-gray-600 font-medium text-2xl">Yellow Coat Jacket </h3>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, et commodi rem deserunt </p>
                     <div class="flex justify-between items-center">
-                        <h2>$580</h2>
+                        <h2 class="text-3xl text-yellow-400 font-bold">$560</h2>
                         <button class="bg-lime-600 text-white font-medium uppercase px-3 py-2 rounded-lg"> <a href="#"></a> <i class="fa-solid fa-cart-shopping"></i> buy now </a></button>
                     </div>
                 </div>
             </section>
-            <section>
-                <h1>Men Jacket</h1>
+                                <!-- Men Sections -->
+            <h1 class="uppercase text-gray-800 font-bold  text-3xl pt-3 pb-3">Men jacket</h1>
+            <section class="md:grid grid-cols-3 gap-7 lg:mr-20 lg:ml-20">
+                <div class="rounded-3xl shadow-lg p-4">
+                    <div class="bg-gray-200 rounded-3xl py-6">
+                        <img class="h-64 mx-auto" src="images/jacket-4.png" alt="">
+                    </div>
+                    <h3 class="text-gray-600 font-medium text-2xl">Snowboard Jacket Mens </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, et commodi rem deserunt </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-3xl text-yellow-400 font-bold">$350</h2>
+                        <button class="bg-lime-600 text-white font-medium uppercase px-3 py-2 rounded-lg"> <a href="#"></a> <i class="fa-solid fa-cart-shopping"></i> buy now </a></button>
+                    </div>
+                </div>
+                <div class="rounded-3xl shadow-lg p-4 ">
+                    <div class="bg-gray-200 rounded-3xl py-6">
+                        <img class="h-64 mx-auto" src="images/jacket-5.png" alt="">
+                       </div>
+                    <h3 class="text-gray-600 font-medium text-2xl">Man Leather Jackets </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, et commodi rem deserunt </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-3xl text-yellow-400 font-bold">$500</h2>
+                        <button class="bg-lime-600 text-white font-medium uppercase px-3 py-2 rounded-lg"> <a href="#"></a> <i class="fa-solid fa-cart-shopping"></i> buy now </a></button>
+                    </div>
+                </div>
+                <div class="rounded-3xl shadow-lg p-4">
+                   <div class="bg-gray-200 rounded-3xl py-6">
+                    <img class="h-64 mx-auto" src="images/jacket-6.png" alt="">
+                   </div>
+                    <h3 class="text-gray-600 font-medium text-2xl">Man Casual Jackets </h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet, et commodi rem deserunt </p>
+                    <div class="flex justify-between items-center">
+                        <h2 class="text-3xl text-yellow-400 font-bold">$745</h2>
+                        <button class="bg-lime-600 text-white font-medium uppercase px-3 py-2 rounded-lg"> <a href="#"></a> <i class="fa-solid fa-cart-shopping"></i> buy now </a></button>
+                    </div>
+                </div>
+            </section>
+
+                            <!-- Feature sections -->
+            <section class="md:grid grid-cols-2 gap-6 lg:mr-20 lg:ml-20 mt-20">
+                <div class="rounded-3xl shadow-lg  pr-5 pl-5 pt-3 pb-3 flex  items-center">
+                   <img class="h-20" src="images/house.png" alt="">
+                   <div class="pl-5">
+                       <h3 class="text-2xl font-bold text-gray-700">Find the Perfect Fit</h3>
+                       <p class="text-base text-gray-700 ">Everybody is different, which is why we 
+                        offer styles for every body.</p>
+                   </div>
+                </div>
+                <div class="row-span-3"> 
+                    <img src="images/shopping.png" alt="">
+                </div>
+                <div class="rounded-3xl shadow-lg pr-5 pl-5 pt-3 pb-3 flex  items-center">
+                    <img class="h-20" src="images/box.png" alt="">
+                    <div class="pl-5">
+                       <h3 class="text-2xl font-bold text-gray-700">Free Exchanges</h3>
+                       <p class="text-base text-gray-700 ">One of the many reasons you can shop 
+                        with peace of mind.</p>
+                    </div>
+                </div>
+                <div class="rounded-3xl shadow-lg pr-5 pl-5 pt-3 pb-3 flex  items-center">
+                    <img class="h-20" src="images/question.png" alt="">
+                    <div class="pl-5">
+                        <h3 class="text-2xl font-bold text-gray-700">Contact Our Seller</h3>
+                        <p class="text-base text-gray-700 ">They are here to help you. That's quite 
+                        literally what we pay them for.</p>
+                    </div>
+                </div>
+               
             </section>
         </section>
     </main>
-   
+   <footer>
+       <p class="text-center mt-10 m-5"> @all copy right fariha||2022</p>
+   </footer>
 
 </body>
 </html>
